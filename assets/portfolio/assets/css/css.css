@@ -1,0 +1,138 @@
+/* margem zerada*/
+body {
+	margin:0;
+	padding:0;
+}
+header {
+	display:flex;
+	height:90px;
+	justify-content:center;
+}
+
+
+
+.menu {
+	display:flex;
+	align-items:center;
+}
+
+.box {
+	display:flex;
+	justify-content:center;
+}
+
+
+/* campo do MENU INICIO */
+
+nav a:hover {
+	background-color:pink;
+	color:white;
+}
+/* campo do MENU */
+nav ul,
+nav li {
+	list-style: none;
+
+}
+nav ul {
+	display:flex;
+}
+nav a {
+	display:block;
+	padding:15px;
+	text-decoration:none;
+	text-transform:uppercase;
+	color:black;
+	font-weight: bold;
+}
+
+/* campo do MENU FIM */
+
+
+
+.box {
+	width:1000px;
+	display:flex;
+	justify-content:space-between;
+
+}
+.header {
+	display:flex;
+	align-items:center;
+}
+
+/* controle dos width */
+#geral {
+	display:flex;
+	justify-content:center;
+}
+#geral aside {
+	flex:1;
+}
+#geral section {
+	flex:2;
+}
+
+
+.title {
+	margin-top:20px;
+	margin-bottom:18px;
+}
+.title_text {
+	color:black;
+	font-size:21px;
+	font-weight: bold;
+}
+
+.flex {
+	display:flex;
+	flex-wrap:wrap; /* fica de lado no pc e unitário no celular dependendo da resolução*/
+}
+
+article {
+	flex:1;
+	min-width:180px;
+	margin-right:18px;
+}
+
+/* para não ficar com o link com efeito de linkado, coloca none no efeito */
+article a {
+	text-decoration:none;
+}
+
+/* pro width ficar no automatico na tela */
+article .thumbnail img {
+	width:100%;
+	height:auto;
+}
+
+article .main_title {
+	margin-top:23px;
+	margin-bottom:23px;
+	color:black;
+	font-size:20px;
+}
+article .resumo {
+	color:black;
+	line-height:20px;
+	font-size:14px;
+	margin-bottom:30px;
+}
+
+footer {
+	display:flex;
+	background-color:black;
+	justify-content:center;
+}
+
+.footer {
+	font-size:12px;
+	margin-top:30px;
+	border-top:5px solid pink;
+	height:30px;
+	line-height:30px;
+	color:white;
+}
+
+
+

@@ -1,0 +1,71 @@
+/* Carolyne Bahiense B. Rossetti, curso: Ads */
+
+/* serve para deixar zerado as bordas da página */
+body {
+	margin:0;
+	padding:0;
+}
+
+/* flexivel e centralizado */
+header {
+	display:flex;
+	justify-content:center;
+	height:80px;
+}
+
+.menu {
+	display:flex;
+	align-items:center;
+}
+
+.box {
+	display:flex;
+	justify-content:center;
+}
+
+
+
+
+/* visualmente do menu, ao clicar fica pink*/
+nav a:hover {
+	background-color:pink;
+	color:white;
+}
+/* campo do MENU */
+nav ul,
+nav li {
+	list-style: none;
+	margin:0;
+	padding:0;
+}
+nav ul {
+	display:flex;
+}
+nav a {
+	display:block;
+	padding:15px;
+	text-decoration:none;
+	text-transform:uppercase;
+	color:black;
+}
+
+
+/* # para id do html */
+#centro {
+	display:flex;
+	justify-content:center;
+	background-position:center;
+	background-size:cover;
+	background-color: gray;
+	height:420px;
+
+}
+
+/*'.' para class */
+.footer {
+	padding: 25px;
+	color: white;
+	background-color:black;
+	display:flex;
+	justify-content:center;
+}

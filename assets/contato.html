@@ -1,0 +1,81 @@
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width,user-scalable=0" />
+	<title>Carolyne Bahiense B. Rossetti</title>
+	<style type="text/css">
+		
+		.box {
+			text-align: center;
+			padding: 20px;
+		}
+
+		header {
+			text-align: center;
+			margin: 20px;
+		}
+
+		label {
+			display: block;
+			margin-bottom: 15px;
+		}
+
+		/* padronizado */
+		input[type=text], input[type=email] {
+			padding: 10px;
+			width: 400px;
+		}
+
+		/* area do texto */
+		textarea {
+			height: 150px;
+			resize: none; /* com isso a caixa de texto fica fixa nesse tamanho */
+			width: 400px;
+		}
+
+		/* aqui é para deixar o botão de envio mais visivel */
+		input[type=submit] { 
+			padding: 10px;
+		}
+
+	</style>
+
+</head>
+
+<body>
+
+<header > 
+	<h1>UNINTER</h1>
+</header>
+
+
+<section >
+	<div class="box ">
+			<form method="POST"> <!-- post é por segurança para o usuário -->
+				<label> <!-- com isso fica visualmente melhor -->
+					Nome Completo:</br>
+					<input type="text" name="nome" placeholder="Digite seu nome"> </br>
+				</label>
+				<label>
+					Email:</br>
+					<input type="email" name="email" placeholder="Digite seu email"> </br>
+				</label>
+				<label>
+					Mensagem:</br>
+					<textarea> </textarea></br>
+				</label>
+					
+				<input type="submit" name="enviar"></br>
+			</form>
+	</div>
+</section>
+
+
+</footer>
+		<!-- rodapé -->
+		Analise e Desenvolvimento de Sistemas
+</footer>
+
+
+</body>
+</html>
